@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+
+import MenuItem  from '../../components/menu-item/menu-item.component'
+
+
 
 import './homepage.styles.scss'
 
 const HomePage = () => (
     <div className='homepage'>
         <div className='directory-menu'>
-            <div className="menu-item">
-                <h1 className='title'>HATS</h1>
-                <span className='subtitle'>SHOW NOW</span>
-            </div>
+            <MenuItem title="Gugu" />
             <div className="menu-item">
                 <h1 className='title'>JACKETS</h1>
                 <span className='subtitle'>SHOW NOW</span>
